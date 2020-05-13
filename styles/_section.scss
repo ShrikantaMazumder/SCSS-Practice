@@ -1,0 +1,5 @@
+.sectionBox {
+    @include flexBox(column);
+    background-color: $backgroundColor;
+    color: $textColor;
+}

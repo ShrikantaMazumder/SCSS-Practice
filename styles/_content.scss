@@ -1,0 +1,8 @@
+.content {
+    @extend .sectionBox;
+    background-color: deeppink;
+    p {
+        background-color: $backgroundColor;
+        margin: 5px;
+    }
+}
